@@ -1,0 +1,282 @@
+.mainContent {
+    height: 100%;
+    background-color:white;
+    margin: 2mm 2mm 2mm 2mm;
+}
+
+.bodyIndex {
+    margin: 2mm 2mm 2mm 2mm;
+}
+
+.visualIdentity {
+    background-color: #131517!important;
+}
+
+.fieldset-upload {
+    background-color: white;
+    padding: 10px 10px 10px 10px!important;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%!important;
+    margin-left: 0px!important;
+}
+
+.nav-item .nav-link {
+    color: white!important;
+    font-size: larger!important;
+}
+
+.navbar {
+    background-color: #3d567e!important;
+}
+
+.btn {
+    border-radius: 5px!important;
+}
+
+.div-btn-choose-file {
+    text-align: center;
+    width: 165px;
+}
+
+.btn-choose-file {
+    width: 95%;
+}
+
+.div-btn-send-file {
+    text-align: center;
+    width: 165px;
+}
+
+.btn-send-file {
+    width: 95%;
+}
+
+.hidden {
+    display: none;
+}
+
+.newpage { 
+    page-break-before: always 
+}
+
+body {
+    display: block;
+    margin: 0px!important;
+}
+
+.logo-css {
+    width: 240px; 
+    height: 132.22px;
+    text-align: center;
+}
+
+.bandeira-css {
+    width: 160px;
+    text-align: center;
+}
+
+.smaller-font {
+    font-size: smaller;
+}
+
+.details-font {
+    font-size: 25px;
+}
+
+.header-fieldset {
+    max-height: 175px!important;
+    height: 175px!important;
+}
+
+
+.fieldset-vencimento {
+    font-size: 25px;
+}
+
+.fieldset-infos-boleto {
+    max-height: 105px!important;
+    height: 105px!important;
+    font-size: 16px;
+}
+
+.client-fieldset {
+    max-height: 65px!important;
+    height: 65px!important;
+    font-size: 19px;
+}
+
+.details-fieldset {
+    height: 1030px;
+}
+
+.total-economy-fieldset {
+    width: 100%;
+    height: 150px;
+    font-size: large;
+    max-width: 100%;
+    border-style: dashed;
+    border-width: medium;
+    border-color: #3d567e;
+}
+
+.detail-calc-fieldset {
+    width: 100%;
+    height: 150px;
+    font-size: large;
+    max-width: 100%;
+    border-style: dashed;
+    border-width: medium;
+    border-color: #3d567e;
+}
+
+.barCode-fieldset {
+    height: 150px;
+}
+
+.end-fieldset {
+    height: 150px;
+}
+
+.icon-dolar-style {
+    position: absolute;
+    right: 0%;
+    top: -28%;
+    color: #3d567e;
+    font-size: 3.1em;
+}
+
+fieldset {
+    padding: 10px 10px 10px 10px!important;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.border-white {
+    border-color: white!important;
+}
+
+.border-hidden {
+    border-style: hidden!important;
+}
+
+.table-height-none {
+    height: 0%;
+}
+
+.table-height-set {
+    max-height: 84%;
+    height: 84%
+}
+
+.blue-background {
+    background-image: linear-gradient(#051f4a, #3d567e);
+    color: #fff;
+}
+
+.green-background {
+    background-color: #b3ce56;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+.noPadding {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+.client-name {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.vertical-gradient-green-blue {
+    background-image: linear-gradient(#b4ce51, #3d567e);
+}
+
+.vertical-gradient-blue-green {
+    background-image: linear-gradient(#3d567e, #b4ce51);
+}
+
+.horizontal-gradient-green-blue {
+    background-image: linear-gradient(to right,#b4ce51, #3d567e);
+}
+
+.horizontal-gradient-blue-green {
+    background-image: linear-gradient(to right,#3d567e, #b4ce51);
+}
+
+.metalized-gradient-blue {
+    background-image: linear-gradient(#051f4a, #3d567e)!important;
+}
+
+.metalized-gradient-green {
+    background-image: linear-gradient(#708033, #b4ce51)!important;
+}
+
+.horizontal-gradient-white-green {
+    background-image: linear-gradient(to right,white, #b4ce51);
+}
+
+.btn-primary {
+    background-color: #3d567e!important;
+    font-weight: bold;
+}
+
+.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #051f4a!important;
+}
+
+.btn-default {
+    font-weight: bold;
+}
+
+.table thead th {
+    font-size: large;
+    vertical-align: bottom;
+    border-bottom: 4px solid #38517a;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #cccccc;
+    font-size: medium;
+}
+
+.table {
+    margin-bottom: unset!important;
+}
+
+.table-evidence { 
+    background-color: #3d567e!important;
+    color: #fff;
+}
+
+.white-background {
+    background-color: white!important;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact !important;
+    }
+    .table td {
+        background-color: unset !important;
+        -webkit-print-color-adjust: exact !important;
+    }
+    .green-background {
+        background-color: #b3ce56!important;
+    }
+}
+
+@page { 
+    /* topo | direita | inferior | esquerda */
+    margin: 2mm 2mm 2mm 2mm;
+}
+

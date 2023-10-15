@@ -1,0 +1,30 @@
+version: '3.3'
+
+services:
+  php:
+    image: php:7.3-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+  mysql_db:
+    image: mysql:5.7
+    container_name: "mysql-php-general"
+    ports:
+      - "3306:80"
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootAdmin
+      - MYSQL_DATABASE=databases
+    networks:
+      - "networks-php-general"
+  phpmyadmin:
+    image: phpmyadmin:latest
+    links:
+      - mysql_db
+    ports:
+      - 8085:80
+    environment:
+      - PMA_ARBITRARY=1
+networks:
+  networks-php-general:
+    driver: "bridge"

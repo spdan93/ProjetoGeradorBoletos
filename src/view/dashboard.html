@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="br" class="full-height">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon" />
+    <title>Gerador de Boletos</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../css/fontawesome/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap/4.3.1/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../css/mdb/4.8.10/mdb.min.css" rel="stylesheet">
+</head>
+
+<body class="visualIdentity">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="boletosPage" href="#">Boletos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="dashboard" href="#">Dashboard</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <button class="btn btn-lg btn-default metalized-gradient-blue waves-effect waves-light" id="logout"
+                    title="Sair">
+                    <i class="fas fa-2x fa-sign-out-alt"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="bodyIndex" id="bodyUploadFile">
+        <fieldset class="col-12 align-middle fieldset-upload">
+            <div class="row mt-3">
+                <div class="col-5">
+                    <canvas id="myChart" style="max-width: 500px;"></canvas>
+                </div>
+                <div class="col-3">
+                    <canvas id="doughnutChart"></canvas>
+                </div>
+                <div class="col-3">
+                    <canvas id="labelChart"></canvas>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</body>
+
+</html>
+<!-- JQuery -->
+<script type="text/javascript" src="../js/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- JQueryUI -->
+<script type="text/javascript" src="../js/libs/jquery/1.12.0/jquery-ui.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="../js/libs/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="../js/libs/twitter-bootstrap/4.3.1/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="../js/libs/mdbootstrap/4.8.10/mdb.min.js"></script>
+<!-- Lib xlsx reader-->
+<script type="text/javascript" src="../js/libs/xlsx/0.13.5/xlsx.full.min.js"></script>
+<!-- Lib xlsx reader-->
+<script type="text/javascript" src="../js/libs/xlsx/0.13.5/jszip.js"></script>
+
+<link rel="stylesheet" href="../js/libs/jquery/1.9.0/jquery-ui.css" />
+
+<link rel="stylesheet" href="../js/libs/jquery/1.12.1/jquery-ui.css">
+
+<link rel="stylesheet" href="../css/index.css">
+
+<script type="text/javascript" src="../js/ajaxConfig.js"></script>
+<script type="text/javascript" src="../js/dashboard.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
