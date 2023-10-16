@@ -15,8 +15,6 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=rootAdmin
       - MYSQL_DATABASE=databases
-    networks:
-      - "networks-php-general"
   phpmyadmin:
     image: phpmyadmin:latest
     links:
@@ -25,6 +23,3 @@ services:
       - 8085:80
     environment:
       - PMA_ARBITRARY=1
-networks:
-  networks-php-general:
-    driver: "bridge"
